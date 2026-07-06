@@ -1,0 +1,12 @@
+torch>=2.0
+numpy
+h5py
+tqdm
+matplotlib
+scipy
+einops
+timm
+
+# Optional for more accurate FLOPs in exp_eff.py:
+# calflops
+# thop

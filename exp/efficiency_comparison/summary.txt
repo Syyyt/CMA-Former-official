@@ -1,0 +1,61 @@
+Efficiency Comparison Summary
+================================================================================
+Device: cuda  (Tesla V100-SXM2-16GB)
+Latency: B=1, pure forward, 50 warm-up + 1000 trials
+Training: B=64, 200 iters (after 10 warm-up)
+================================================================================
+
+[Proposed]
+  Params       : 1,570,553
+  FLOPs (G)    : 0.3178 [manual_hook]
+  MACs  (G)    : 0.1589
+  Inference    : 1.6395 ± 0.0225 ms (p50=1.6353, p95=1.6742)
+  Inf. Mem (MB): 157.785
+  Train iter   : 31.517 ± 0.200 ms (total 6.30 s for 200 iters)
+  Train Mem(MB): 1636.88
+
+[CNN]
+  Params       : 28,190,585
+  FLOPs (G)    : 0.0958 [manual_hook]
+  MACs  (G)    : 0.0479
+  Inference    : 0.4287 ± 0.0038 ms (p50=0.4280, p95=0.4362)
+  Inf. Mem (MB): 170.575
+  Train iter   : 9.596 ± 0.049 ms (total 1.92 s for 200 iters)
+  Train Mem(MB): 915.27
+
+[DCT-ViT]
+  Params       : 5,878,777
+  FLOPs (G)    : 0.3876 [manual_hook]
+  MACs  (G)    : 0.1938
+  Inference    : 0.7770 ± 0.0132 ms (p50=0.7752, p95=0.7947)
+  Inf. Mem (MB): 278.654
+  Train iter   : 14.266 ± 0.187 ms (total 2.85 s for 200 iters)
+  Train Mem(MB): 661.17
+
+[HMC-ViT]
+  Params       : 2,410,976
+  FLOPs (G)    : 0.0474 [manual_hook]
+  MACs  (G)    : 0.0237
+  Inference    : 1.3305 ± 0.0083 ms (p50=1.3302, p95=1.3435)
+  Inf. Mem (MB): 300.975
+  Train iter   : 6.288 ± 0.206 ms (total 1.26 s for 200 iters)
+  Train Mem(MB): 402.44
+
+[DNN]
+  Params       : 549,756
+  FLOPs (G)    : 0.0011 [manual_hook]
+  MACs  (G)    : 0.0005
+  Inference    : 0.2985 ± 0.0051 ms (p50=0.2970, p95=0.3052)
+  Inf. Mem (MB): 310.028
+  Train iter   : 1.595 ± 0.010 ms (total 0.32 s for 200 iters)
+  Train Mem(MB): 317.59
+
+[MUSIC]
+  Params       : N/A
+  FLOPs (G)    : N/A
+  MACs  (G)    : N/A
+  Inference    : 0.7185 ± 0.0111 ms (p50=0.7171, p95=0.7280)
+  Inf. Mem (MB): N/A
+  Train iter   : N/A
+  Train Mem(MB): N/A
+

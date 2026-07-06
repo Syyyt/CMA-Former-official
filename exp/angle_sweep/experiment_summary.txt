@@ -1,0 +1,29 @@
+Angle Sweep Experiment Summary
+==================================================
+SNR: -10 dB
+Monte Carlo Trials per angle: 1
+Snapshots per trial: 1000
+Angle range: -60° to 60°
+Angle step: 1°
+Target spacing (multi-target): 3°
+
+Single Target:
+  Target count: 1
+  Angle range: -60° to 60°
+  Angle step: 1°
+  Total test points: 121
+
+Dual Target:
+  Target count: 2
+  Angle range: -60° to 60°
+  Angle step: 1°
+  Total test points: 121
+  Target spacing: 3°
+
+Triple Target:
+  Target count: 3
+  Angle range: -60° to 60°
+  Angle step: 1°
+  Total test points: 121
+  Target spacing: 3°
+

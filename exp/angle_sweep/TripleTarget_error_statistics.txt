@@ -1,0 +1,51 @@
+Angle Estimation Error Statistics - Triple Target
+============================================================
+SNR: -10 dB
+Monte Carlo Trials: 1
+Target Count: 3
+Angle Range: -60° to 60°
+Angle Step: 1°
+Target Spacing: 3°
+
+Proposed:
+  Mean Error: nan°
+  Std Error:  nan°
+  RMSE:       nan°
+  Max Error:  nan°
+  Min Error:  nan°
+
+CNN:
+  Mean Error: nan°
+  Std Error:  nan°
+  RMSE:       nan°
+  Max Error:  nan°
+  Min Error:  nan°
+
+DCT-ViT:
+  Mean Error: nan°
+  Std Error:  nan°
+  RMSE:       nan°
+  Max Error:  nan°
+  Min Error:  nan°
+
+HMC-ViT:
+  Mean Error: nan°
+  Std Error:  nan°
+  RMSE:       nan°
+  Max Error:  nan°
+  Min Error:  nan°
+
+DNN:
+  Mean Error: nan°
+  Std Error:  nan°
+  RMSE:       nan°
+  Max Error:  nan°
+  Min Error:  nan°
+
+MUSIC:
+  Mean Error: nan°
+  Std Error:  nan°
+  RMSE:       nan°
+  Max Error:  nan°
+  Min Error:  nan°
+

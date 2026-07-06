@@ -1,0 +1,10 @@
+# Threshold = 0.5 deg
+Config	Interval(deg)	Angles	SuccessRate
+TwoSources_2deg	2	[-1.1, 0.9]	1.0000
+ThreeSources_10deg	10	[-10.1, -0.1, 9.9]	1.0000
+ThreeSources_8deg	8	[-8.1, -0.1, 7.9]	0.9980
+ThreeSources_6deg	6	[-6.1, -0.1, 5.9]	0.9615
+ThreeSources_5deg	5	[-5.1, -0.1, 4.9]	0.8915
+ThreeSources_4deg	4	[-4.1, -0.1, 3.9]	0.9190
+ThreeSources_3deg	3	[-3.1, -0.1, 2.9]	0.9420
+ThreeSources_2deg	2	[-2.1, -0.1, 1.9]	0.9040

@@ -1,0 +1,51 @@
+Angle Estimation Error Statistics - Single Target
+============================================================
+SNR: -10 dB
+Monte Carlo Trials: 1
+Target Count: 1
+Angle Range: -60° to 60°
+Angle Step: 1°
+Target Spacing: 3°
+
+Proposed:
+  Mean Error: 0.000°
+  Std Error:  0.000°
+  RMSE:       0.000°
+  Max Error:  0.000°
+  Min Error:  0.000°
+
+CNN:
+  Mean Error: 0.008°
+  Std Error:  0.091°
+  RMSE:       0.091°
+  Max Error:  1.000°
+  Min Error:  0.000°
+
+DCT-ViT:
+  Mean Error: 0.000°
+  Std Error:  0.000°
+  RMSE:       0.000°
+  Max Error:  0.000°
+  Min Error:  0.000°
+
+HMC-ViT:
+  Mean Error: 0.000°
+  Std Error:  0.000°
+  RMSE:       0.000°
+  Max Error:  0.000°
+  Min Error:  0.000°
+
+DNN:
+  Mean Error: 0.471°
+  Std Error:  0.499°
+  RMSE:       0.686°
+  Max Error:  1.000°
+  Min Error:  0.000°
+
+MUSIC:
+  Mean Error: 0.000°
+  Std Error:  0.000°
+  RMSE:       0.000°
+  Max Error:  0.000°
+  Min Error:  0.000°
+
