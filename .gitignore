@@ -1,23 +1,55 @@
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
-.DS_Store
+*.py[codz]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
 
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Environments and local config
+.env
+.envrc
+.venv/
+venv/
+env/
+ENV/
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+
+# Jupyter and IDE/editor state
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# Project data, checkpoints, and generated artifacts
 DATA/
 *.h5
-
 checkpoints/
 exp_utils/weights/
 *.pt
 *.pth
-
 outputs/
 *.log
 
+# Local scratch/personal materials
 .tmp_photos/
 found_images/
 final/
 tmp/
-
-.venv/
-venv/
-env/
