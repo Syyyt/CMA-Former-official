@@ -68,9 +68,9 @@ If this code is useful for your research, please cite:
   journal={IEEE Transactions on Cognitive Communications and Networking}, 
   title={Cascaded Multi-Head Attention Transformer Framework for Direction of Arrival Estimation}, 
   year={2026},
-  volume={},
+  volume={12},
   number={},
-  pages={1-1},
-  keywords={Direction-of-arrival estimation;Arrays;Modeling;Signal to noise ratio;Algorithms;Covariance matrices;Convolutional neural networks;Multiple signal classification;Music;Training;Direction of arrival (DOA) estimation;Self-attention;Transformer;Deep neural network;Deep Learning (DL)},
+  pages={10450-10465},
+  keywords={Direction-of-arrival estimation;Arrays;Modeling;Signal to noise ratio;Algorithms;Covariance matrices;Convolutional neural networks;Multiple signal classification;Music;Training;Direction of arrival (DOA) estimation;self-attention;transformer;deep neural network;deep learning (DL)},
   doi={10.1109/TCCN.2026.3712135}}
 ```
